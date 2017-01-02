@@ -361,8 +361,11 @@
     <TypeScriptCompile Include="lm\oldea\english1\l24\a\hueex0_l24_a01.tsx" />
     <TypeScriptCompile Include="lm\oldea\english1\l24\a\hueex0_l24_a02.tsx" />
     <TypeScriptCompile Include="lm\oldea\english1\l24\a\hueex0_l24_a03.tsx" />
+    <TypeScriptCompile Include="rw-course\lib.ts" />
+    <TypeScriptCompile Include="rw-course\objects.ts" />
     <TypeScriptCompile Include="typings\react\index.d.ts" />
-    <TypeScriptCompile Include="typings\rw-course\index.d.ts" />
+    <TypeScriptCompile Include="rw-course\course.ts" />
+    <TypeScriptCompile Include="rw-course\index.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

@@ -254,3 +254,4 @@ paket-files/
 lm/
 jspm_packages/
 *.js
+*.map
