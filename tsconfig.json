@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "baseUrl": ".",
+    "paths": {
+      //get from d:\rw\rw\jspm_packages\npm\@types\
+      "react": [ "typings/react/index" ],
+      "rw-course": [ "typings/rw-course/index" ]
+    },
+    //"outFile": "index.js",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "jsx": "react",
+    "jsxFactory": "$rc"
+  },
+
+  "exclude": [
+    "jspm_packages/"
+  ]
+}
