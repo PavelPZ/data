@@ -10,6 +10,7 @@
       "rw-course": [ "rw-course/index" ]
     },
     //"outFile": "index.js",
+    //"declaration": true,
     "lib": [
       "dom",
       "es6"

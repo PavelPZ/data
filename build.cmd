@@ -1,0 +1,1 @@
+jspm bundle index.js - react - react-dom - rw-course bundle.js --skip-source-maps --minify

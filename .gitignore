@@ -252,6 +252,7 @@ paket-files/
 *.sln.iml
 
 lm/
+data/
 jspm_packages/
 *.js
 *.map
