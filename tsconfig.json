@@ -25,6 +25,7 @@
   },
 
   "exclude": [
-    "jspm_packages/"
+    "jspm_packages/",
+    "typings/rw/rw-gui-rt/theme.d.ts"
   ]
 }

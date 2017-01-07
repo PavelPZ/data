@@ -37,16 +37,10 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="typings\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="fake.ts" />
     <TypeScriptCompile Include="index.ts" />
-    <None Include="rw-course\lib.ts_" />
-    <None Include="rw-course\objects.ts_" />
-    <None Include="rw-course\course.ts_" />
-    <None Include="rw-course\index.ts_" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
