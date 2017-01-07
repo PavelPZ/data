@@ -4,7 +4,11 @@
     "main": "index.js",
     "dependencies": {
       "core-js": "npm:core-js@^2.4.1",
-      "react-dom": "npm:react-dom@^15.4.1"
+      "react-redux": "npm:react-redux@^4.4.6",
+      "@types/lodash": "npm:@types/lodash@^4.14.45",
+      "@types/react": "npm:@types/react@^0.14.55",
+      "@types/react-dom": "npm:@types/react-dom@^0.14.20",
+      "@types/react-redux": "npm:@types/react-redux@^4.4.35"
     },
     "peerDependencies": {
       "assert": "npm:jspm-nodelibs-assert@^0.2.0",
@@ -21,6 +25,7 @@
       "path": "npm:jspm-nodelibs-path@^0.2.0",
       "process": "npm:jspm-nodelibs-process@^0.2.0",
       "react": "npm:react@^15.4.1",
+      "redux": "npm:redux@^3.0.0",
       "stream": "npm:jspm-nodelibs-stream@^0.2.0",
       "string_decoder": "npm:jspm-nodelibs-string_decoder@^0.2.0",
       "url": "npm:jspm-nodelibs-url@^0.2.0",
@@ -42,6 +47,12 @@
         "ignore": [
           "test.js"
         ]
+      },
+      "npm:lodash@4.17.4": {
+        "map": {
+          "buffer": "@empty",
+          "process": "@empty"
+        }
       }
     }
   }
