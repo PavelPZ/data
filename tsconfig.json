@@ -5,7 +5,10 @@
     "module": "system",
     "baseUrl": ".",
     "paths": {
-      "rw-course": [ "typings/rw/rw-course/index" ],
+      "rw-router": [ "typings/rw-router/index" ],
+      "rw-redux": [ "typings/rw-redux/index" ],
+      "rw-login": [ "typings/rw-login/index" ],
+      "rw-course": [ "typings/rw-course/index" ],
 
       "redux": [ "jspm_packages/npm/redux@3.6.0/index" ],
       "react": [ "jspm_packages/npm/@types/react@0.14.57/index" ],
@@ -26,6 +29,6 @@
 
   "exclude": [
     "jspm_packages/",
-    "typings/rw/rw-gui-rt/theme.d.ts"
+    "typings/rw-gui-rt/theme.d.ts"
   ]
 }
