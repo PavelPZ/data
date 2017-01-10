@@ -253,6 +253,8 @@ paket-files/
 
 lm/
 data/
+typings/
+tsc-build/
 jspm_packages/
 *.js
 *.map

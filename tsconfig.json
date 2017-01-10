@@ -9,6 +9,9 @@
       "rw-redux": [ "typings/rw-redux/index" ],
       "rw-login": [ "typings/rw-login/index" ],
       "rw-course": [ "typings/rw-course/index" ],
+      "rw-lib/*": [ "typings/rw-lib/*" ],
+      "rw-instr/*": [ "typings/rw-instr/*" ],
+
 
       "redux": [ "jspm_packages/npm/redux@3.6.0/index" ],
       "react": [ "jspm_packages/npm/@types/react@0.14.57/index" ],
@@ -23,9 +26,38 @@
       "dom",
       "es6"
     ],
-    "jsx": "react",
-    "jsxFactory": "$rc"
+    "jsx": "react"
+    //"jsxFactory": "$rc"
   },
+
+  "include": [
+    "typings/**/*",
+    "lm/oldea/english1/**/*"
+    //"lm/oldea/english1e/",
+    //"lm/oldea/english2/",
+    //"lm/oldea/english2e/",
+    //"lm/oldea/english3/",
+    //"lm/oldea/english3e/",
+    //"lm/oldea/english4/",
+    //"lm/oldea/english4e/",
+    //"lm/oldea/english5/",
+    //"lm/oldea/english5e/",
+    //"lm/oldea/french1/",
+    //"lm/oldea/french2/",
+    //"lm/oldea/french3/",
+    //"lm/oldea/german1/",
+    //"lm/oldea/german2/",
+    //"lm/oldea/german3/",
+    //"lm/oldea/italian1/",
+    //"lm/oldea/italian2/",
+    //"lm/oldea/italian3/",
+    //"lm/oldea/russian1/",
+    //"lm/oldea/russian2/",
+    //"lm/oldea/russian3/",
+    //"lm/oldea/spanish1/",
+    //"lm/oldea/spanish2/",
+    //"lm/oldea/spanish3/"
+  ],
 
   "exclude": [
     "jspm_packages/",

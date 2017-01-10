@@ -1,0 +1,2 @@
+﻿D:\rw\data\lm\oldea\russian1\lesson6\chaptera\istorija.tsx
+  {'Юpий Гaгapин – ' + $l
