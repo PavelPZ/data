@@ -16,51 +16,46 @@
       "redux": [ "jspm_packages/npm/redux@3.6.0/index" ],
       "react": [ "jspm_packages/npm/@types/react@0.14.57/index" ],
       "react-redux": [ "jspm_packages/npm/@types/react-redux@4.4.35/index" ],
-      "lodash/*": [ "jspm_packages/npm/@types/lodash@4.14.47/*/index" ],
-      //get from https://raw.githubusercontent.com/Semantic-Org/Semantic-UI-React/master/typings/index.d.ts
-      "semantic-ui": [ "typings/semantic-ui-react/index" ]
+      "lodash/*": [ "jspm_packages/npm/@types/lodash@4.14.47/*/index" ]
     },
-    //"outFile": "index.js",
-    //"declaration": true,
     "lib": [
       "dom",
       "es6"
     ],
     "jsx": "react"
-    //"jsxFactory": "$rc"
   },
 
   "include": [
-    "typings/**/*",
-    "lm/oldea/english1/**/*"
-    //"lm/oldea/english1e/",
-    //"lm/oldea/english2/",
-    //"lm/oldea/english2e/",
-    //"lm/oldea/english3/",
-    //"lm/oldea/english3e/",
-    //"lm/oldea/english4/",
-    //"lm/oldea/english4e/",
-    //"lm/oldea/english5/",
-    //"lm/oldea/english5e/",
-    //"lm/oldea/french1/",
-    //"lm/oldea/french2/",
-    //"lm/oldea/french3/",
-    //"lm/oldea/german1/",
-    //"lm/oldea/german2/",
-    //"lm/oldea/german3/",
-    //"lm/oldea/italian1/",
-    //"lm/oldea/italian2/",
-    //"lm/oldea/italian3/",
-    //"lm/oldea/russian1/",
-    //"lm/oldea/russian2/",
-    //"lm/oldea/russian3/",
-    //"lm/oldea/spanish1/",
-    //"lm/oldea/spanish2/",
-    //"lm/oldea/spanish3/"
+    "typings/**/*"
+    ,"lm/oldea/english1/**/*"
+    //,"lm/oldea/english1e/**/*"
+    //,"lm/oldea/english2/**/*"
+    //,"lm/oldea/english2e/**/*"
+    //,"lm/oldea/english3/**/*"
+    //,"lm/oldea/english3e/**/*"
+    //,"lm/oldea/english4/**/*"
+    //,"lm/oldea/english4e/**/*"
+    //,"lm/oldea/english5/**/*"
+    //,"lm/oldea/english5e/**/*"
+    //,"lm/oldea/french1/**/*"
+    //,"lm/oldea/french2/**/*"
+    //,"lm/oldea/french3/**/*"
+    //,"lm/oldea/german1/**/*"
+    //,"lm/oldea/german2/**/*"
+    //,"lm/oldea/german3/**/*"
+    //,"lm/oldea/italian1/**/*"
+    //,"lm/oldea/italian2/**/*"
+    //,"lm/oldea/italian3/**/*"
+    //,"lm/oldea/russian1/**/*"
+    //,"lm/oldea/russian2/**/*"
+    //,"lm/oldea/russian3/**/*"
+    //,"lm/oldea/spanish1/**/*"
+    //,"lm/oldea/spanish2/**/*"
+    //,"lm/oldea/spanish3/"
   ],
 
   "exclude": [
-    "jspm_packages/",
+    "jspm_packages/*",
     "typings/rw-gui-rt/theme.d.ts"
   ]
 }
