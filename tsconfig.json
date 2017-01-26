@@ -11,6 +11,7 @@
       "rw-course": [ "typings/rw-course/index" ],
       "rw-lib/*": [ "typings/rw-lib/*" ],
       "rw-instr/*": [ "typings/rw-instr/*" ],
+      "lm/*": [ "lm/*" ],
 
 
       "redux": [ "jspm_packages/npm/redux@3.6.0/index" ],
@@ -27,6 +28,7 @@
 
   "include": [
     "typings/**/*"
+    //, "fake.ts"
     ,"lm/oldea/english1/**/*"
     //,"lm/oldea/english1e/**/*"
     //,"lm/oldea/english2/**/*"
