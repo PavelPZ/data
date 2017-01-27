@@ -9,7 +9,7 @@
       "rw-redux": [ "typings/rw-redux/index" ],
       "rw-login": [ "typings/rw-login/index" ],
       "rw-course": [ "typings/rw-course/index" ],
-      "rw-lib/*": [ "typings/rw-lib/*" ],
+      "rw-lib": [ "typings/rw-lib/index" ],
       "rw-instr/*": [ "typings/rw-instr/*" ],
       "lm/*": [ "lm/*" ],
 
