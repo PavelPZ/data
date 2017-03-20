@@ -8,13 +8,15 @@
       "rw-router": [ "typings/rw-router/index" ],
       "rw-redux": [ "typings/rw-redux/index" ],
       "rw-login": [ "typings/rw-login/index" ],
-      "rw-instr/*": [ "typings/rw-instr/*" ],
-      "lm/*": [ "lm/*" ],
-
-      "rw-course/*": [ "typings/rw-course/*" ],
-      "rw-lib/*": [ "typings/rw-lib/*" ],
+      "rw-config": [ "typings/rw-config/index" ],
       "rw-course": [ "typings/rw-course/index" ],
-      "rw-lib": [ "typings/rw-lib/index" ],
+
+      "lm/*": [ "lm/*" ],
+      "rw-instr/*": [ "typings/rw-instr/*" ],
+      "rw-lib/*": [ "typings/rw-lib/*" ],
+
+      //"rw-lib": [ "typings/rw-lib/index" ],
+      //"rw-course/*": [ "typings/rw-course/*" ],
 
       "redux": [ "jspm_packages/npm/redux@3.6.0/index" ],
       "react": [ "jspm_packages/npm/@types/react@0.14.57/index" ],
